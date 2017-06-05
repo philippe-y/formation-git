@@ -5,7 +5,7 @@
 $cd /F/MGDIS/Formation/Git
 $git init
 
-# Ajout d'un fichier
+# Ajout d'un fichier dans l'index
 
 $git add Commandes.txt
 
@@ -16,6 +16,22 @@ $git commit -m "<message>"
 # Référencement d'un repository distant
 
 $git remote add origin https://github.com/philippe-y/formation-git.git
+
+# Mise à jour du repository distant
+
+$git push origin master
+
+# Ajout d'un fichier dans l'index après modification du fichier
+
+$git add Commandes.txt
+
+# Commit de tous les fichiers modifiers et ajoutés dans l'index
+
+$git commit -m "<message>"
+
+# Récupération des modifications depuis le repository distant
+
+$git pull origin master
 
 # Mise à jour du repository distant
 
