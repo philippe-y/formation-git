@@ -36,3 +36,15 @@ $git pull origin master
 # Mise à jour du repository distant
 
 $git push origin master
+
+# Suppression d'un fichier de l'index
+
+$git rm Temporaire.txt
+
+# Commit du fichier supprimé
+
+$git commit -m "<message>"
+
+# Mise à jour du repository distant
+
+$git push origin master
