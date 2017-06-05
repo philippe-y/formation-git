@@ -1,0 +1,10 @@
+# Doc : https://git-scm.com/docs
+
+# Initialisation du repository
+
+$cd /F/MGDIS/Formation/Git
+$git init
+
+# Ajout d'un fichier
+
+$git add Commandes.txt
