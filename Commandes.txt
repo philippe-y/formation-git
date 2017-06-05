@@ -8,3 +8,15 @@ $git init
 # Ajout d'un fichier
 
 $git add Commandes.txt
+
+# Commit de tous les fichiers
+
+$git commit -m "<message>"
+
+# Référencement d'un repository distant
+
+$git remote add origin https://github.com/philippe-y/formation-git.git
+
+# Mise à jour du repository distant
+
+$git push origin master
